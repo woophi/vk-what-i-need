@@ -37,10 +37,10 @@
     "importHelpers": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "strict": true,
     "paths": {
-      "tslib" : ["./node_modules/tslib"]
+      "tslib" : ["../node_modules/tslib"]
     }
   },
   "include": [

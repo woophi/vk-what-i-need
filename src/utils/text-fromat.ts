@@ -1,5 +1,5 @@
 export const safeTrim = (value: string) => {
-	if (!!value) {
+	if (typeof value === 'string') {
 		return value.trim();
 	}
 	return value;
