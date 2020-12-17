@@ -15,7 +15,9 @@ export var useInterval = function (callback, delay) {
             var id_1 = setInterval(tick, delay);
             return function () { return clearInterval(id_1); };
         }
-        return function () { };
+        return function () {
+            // do nothing
+        };
     }, [delay]);
 };
 //# sourceMappingURL=interval.js.map
