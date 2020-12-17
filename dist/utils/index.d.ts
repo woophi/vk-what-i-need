@@ -4,3 +4,4 @@ export * from './text-fromat';
 export * from './platform';
 export * from './sort';
 export * from './events';
+export * from './image';
