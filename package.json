@@ -16,8 +16,7 @@
   "scripts": {
     "build": "yarn && yarn lint && tsc --project ./tsconfig.json",
     "start": "yarn && yarn lint && tsc --watch --incremental --project ./tsconfig.json",
-    "lint": "eslint --config ./.eslintrc.json ./src",
-    "publish": "yarn build && npm publish"
+    "lint": "eslint --config ./.eslintrc.json ./src"
   },
   "dependencies": {
     "@vkontakte/vk-bridge": "^2.3.0",
